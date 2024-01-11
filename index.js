@@ -1,7 +1,8 @@
-const Port=3000
+
 const express=require('express')
 const bodyParser=require('body-parser')
 const app=express();
+const Port= process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({extended:true}))
 const db=require('./config/mongoose');
 
