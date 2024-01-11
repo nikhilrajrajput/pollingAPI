@@ -17,3 +17,6 @@ This is the polling API project provided by the Coding Ninjas (Backend Skill Tes
 - /options/:id/add_vote (To increment the count of votes)
 - /questions/:id (To view a question and it’s options)
 
+# API Link
+- link-> https://polling-api-ehoj.onrender.com
+
