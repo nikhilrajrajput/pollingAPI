@@ -10,12 +10,12 @@ This is the polling API project provided by the Coding Ninjas (Backend Skill Tes
 - View a question with it’s options and all the votes given to it
 
 ## Required Routes
-- /questions/create (To create a question)
-- /questions/:id/options/create (To add options to a specific question)
-- /questions/:id/delete (To delete a question)
-- /options/:id/delete (To delete an option)
-- /options/:id/add_vote (To increment the count of votes)
-- /questions/:id (To view a question and it’s options)
+- /questions/create (To create a question) (POST Request)
+- /questions/:id/options/create (To add options to a specific question) (Post Request )
+- /questions/:id/delete (To delete a question) (Delete Request)
+- /options/:id/delete (To delete an option) (Delete request)
+- /options/:id/add_vote (To increment the count of votes) (POST request)
+- /questions/:id (To view a question and it’s options) (GET)
 
 # API Link
 - link-> https://polling-api-ehoj.onrender.com
