@@ -15,7 +15,7 @@ This is the polling API project provided by the Coding Ninjas (Backend Skill Tes
 - /questions/:id/delete (To delete a question) (Delete Request)
 - /options/:id/delete (To delete an option) (Delete request)
 - /options/:id/add_vote (To increment the count of votes) (POST request)
-- /questions/:id (To view a question and it’s options) (GET)
+- /questions/:id (To view a question and it’s options) (GET Request)
 
 # API Link
 - link-> https://polling-api-ehoj.onrender.com
